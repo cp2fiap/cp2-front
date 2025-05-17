@@ -1,50 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Cardápio | JapaZen</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neo Sushi - Restaurante Futurista Japonês</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/style.css"/>  
+
 </head>
 <body>
+  <nav>
+    <a href="/index.html">Início</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="../pages/contato.html">Contato</a>
+  </nav>
+
   <header>
-    <div class="logo">JapaZen</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="cardapio.html">Cardápio</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </nav>
+    <h1>JapaZen</h1>
+    <p>O sabor do Japão em uma experiência futurista</p>
   </header>
 
-  <main style="padding: 2rem;">
-    <h1 style="text-align:center; margin-bottom: 2rem;">Nosso Cardápio</h1>
-    <section class="grid-pratos">
-      <div class="prato">
-        <img src="/src/assets/comida1.png" alt="Sushi Especial" />
-        <h3>Sushi Especial</h3>
-        <p>Peças variadas com salmão, atum e molho tare.</p>
+  <section>
+    <h2 id="cardapio" class="cardapio">Nosso Cardépio</h2>
+    <div class="menu">
+      <div class="card">
+        <h3>Sashimi Cósmico</h3>
+        <p>Fatias frescas com brilho de wasabi galáctico.</p>
+        <img src="../assets/sashimicosmico.png" alt="Sashimi Cósmico">
       </div>
-      <div class="prato">
-        <img src="/src/assets/combiandos.png" alt="Combinado 20 peças" />
-        <h3>Combinado 20 Peças</h3>
-        <p>Ideal para duas pessoas. Inclui niguiris e sashimis.</p>
+      <div class="card">
+        <h3>Temaki Nebuloso</h3>
+        <p>Temaki envolto em nori especial com aroma de estrelas.</p>
+        <img src="../assets/temaki.jpg" alt="Temaki Nebuloso">
       </div>
-      <div class="prato">
-        <img src="/src/assets/comida3.png" alt="Temaki de salmão" />
-        <h3>Temaki de Salmão</h3>
-        <p>Tradicional cone de alga recheado com salmão fresco.</p>
+      <div class="card">
+        <h3>Uramaki Luar</h3>
+        <p>Enrolado invertido com salmão celeste e cream cheese solar.</p>
+        <img src="../assets/uramaki.png" alt="Uramaki Luar">
       </div>
-      <div class="prato">
-        <img src="/src/assets/comida4.png" alt="Yakissoba" />
-        <h3>mini Combinado</h3>
-        <p>Niguiris variados, salmão e atum.</p>
+      <div class="card">
+        <h3>Robô Yakisoba</h3>
+        <p>Macarrão oriental preparado por inteligência artificial.</p>
+        <img src="../assets/yakisoba.png" alt="Robô Yakisoba">
       </div>
-    </section>
-  </main>
+      <div class="card">
+        <h3>niguiri espacial</h3>
+        <p>Bolinho de arroz estelar com fatia de salmão interplanetário </p>
+        <img src="../assets/niguiri.png" alt="Niguiri Espacial">
+      </div>
+      <div class="card">
+        <h3>Combo Intergaláctico</h3>
+        <p>Combo galáctico com niguiri de salmão, hot holl filadélfia e hot holl clássico, unidos em uma explosão de sabores cósmicos</p>
+        <img src="../assets/combiandos.png" alt="">
+      </div>
+      <div class="card">
+        <h3>Prato Estelar</h3>
+        <p>Niguiri de salmão, Hot Holl Filadélfia e Hot Holl tradicional unidos em uma jornada de sabores orbitais.</p>
+        <img src="../assets/comida1.png" alt="Hot Holl Filadélfia">
+      </div>
+      <div class="card">
+        <h3>Fusão Lunar</h3>
+        <p>Uma combinação especial de Niguiri de salmão, Hot Holl Filadélfia e Hot Holl tradicional com um toque de luar oriental.</p>
 
-  <script src="js/script.js"></script>
+        <img src="../assets/comida4.png" alt="Hot Holl Filadélfia">
+      </div>
+      <div class="card">
+        <h3>Combo Galáctico</h3>
+        <p>Niguiri de salmão, Hot Holl Filadélfia e Hot Holl tradicional embarcam juntos em uma missão intergaláctica de sabor.</p>
+        <img src="../assets/comida3.png" alt="Hot Holl Filadélfia">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 JapaZen. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
